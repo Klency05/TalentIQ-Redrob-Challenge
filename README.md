@@ -92,7 +92,12 @@ TalentIQ-Redrob-Challenge/
 ├── README.md                 # This file
 │
 └── ui/                       # TalentIQ Web Interface (bonus)
-    └── [Bolt.new React app]
+    ├── src/
+    │   ├── App.tsx          # Main app + Claude API call
+    │   ├── components/      # All UI components
+    │   └── lib/             # Ranking types
+    ├── package.json
+    └── README_UI.md         # How to run locally
 ```
 
 ---
